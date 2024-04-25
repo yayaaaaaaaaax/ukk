@@ -1,0 +1,143 @@
+/* halaman login */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body-login {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-login {
+    width: 32%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 90px;
+}
+
+.btn-primary-login {
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.form-control-login {
+    color: rgba(0,0,0,.87);
+    border-bottom-color: rgba(0,0,0,.42);
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+}
+
+.h4-login {
+    font-size: 2rem !important;
+    font-weight: 700;
+}
+
+.form-label-login {
+    font-family: 800 !important;
+}
+
+
+/* halaman register */
+
+.body-register {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary-register {
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.form-control-register {
+    font-size: 0.8rem;
+    padding: 0.8rem 0.5rem;
+}
+
+.btn-register {
+    font-size: 0.8rem;
+    padding: 0.75rem 1rem;
+}
+
+.h4-register {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem !important;
+    font-weight: 700;
+}
+
+.form-register {
+    border-radius: 20px;
+    margin-top: 70px;
+}
+
+
+/* halaman home */
+.halaman1-home {
+    background-image: url(/img.jpeg);
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+}
+
+.nav-home {
+    background: rgba(0,0,0,0.6);
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+#verticle-line {
+    widht: 1px;
+    height: 2px;
+    background-color: black;
+}
+
+#bg-welcome {
+    /* background-color: #D8D9CF; */
+    margin-top: 130px;
+    margin-bottom: 70px;
+}
+
+
+// halaman album
+.all-album {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.row-album {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-album {
+    flex: 33.3%;
+}
+
+.img-album {
+    widht: 100%;
+    height: 100%
+}
+
+
+
+// halaman gallery
+.nav-gallery {
+    background: rgba(0,0,0,0.6);
+}
+
